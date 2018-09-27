@@ -16,15 +16,15 @@
     "logs"
   ],
   "devDependencies": {
-    "mocha": "^2.0.1",
-    "should": "^4.3.0",
-    "winston": ">=0.6.x"
+    "mocha": "^5.2.0",
+    "should": "^13.2.3",
+    "winston": "^3.1.0"
   },
   "dependencies": {
     "glossy": "^0.1.7"
   },
   "peerDependencies": {
-    "winston": ">=0.6.x"
+    "winston": ">=3 <4"
   },
   "main": "./lib/winston-papertrail",
   "scripts": {
